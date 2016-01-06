@@ -4,7 +4,7 @@ A mongoose plugin that adds the ability to use the elo rating system on a model.
 
 ## example
 
-```
+```javascript
 const mongoose = require('mongoose');
 const eloPlugin = require('elo-mongoose');
 
@@ -28,6 +28,7 @@ TestModel.create({
         console.log(models);
     });
 });
+```
 
 ## api
 
