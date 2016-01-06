@@ -77,7 +77,7 @@ module.exports = (schema, options) => {
     /**
     * Sorts the model by rating, if a callback is provided 
     * the query is executed, if not the query chain is returned     
-    * @params {Function} Execute callback
+    * @param {Function} Execute callback
     * @returns {Query} mongoose model query
     */
     schema.statics.sortByRating = function(cb) {
