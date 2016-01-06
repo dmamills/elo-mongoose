@@ -1,0 +1,20 @@
+{
+  "name": "elo-mongoose",
+  "version": "1.0.0",
+  "description": "mongoose plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/tests.js"
+  },
+  "author": "Daniel Mills",
+  "license": "MIT",
+  "dependencies": {
+    "elo-rank": "1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "mongoose": "^4.3.4",
+    "should": "^8.0.2",
+    "async": "^1.5.1"
+  }
+}
