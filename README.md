@@ -20,7 +20,7 @@ const TestModel = mongoose.model('TestModel', schema);
 
 TestModel.create({
     name: 'test',
-    rank: 1500
+    rating: 1500
 }, (err, model) => {
     console.log(model.rating) // => 1500
 
