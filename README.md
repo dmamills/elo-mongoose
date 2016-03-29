@@ -1,6 +1,7 @@
 # elo mongoose plugin
 
 ![](https://api.travis-ci.org/dmamills/elo-mongoose.svg)
+[![codecov.io](https://codecov.io/github/dmamills/elo-mongoose/coverage.svg?branch=master)](https://codecov.io/github/dmamills/elo-mongoose?branch=master)
 
 A mongoose plugin that adds the ability to use the elo rating system on a model. Built using my [elo-rank](http://github.com/dmamills/elo-rank) library. Note: only tested on node `v5.0.0`
 
